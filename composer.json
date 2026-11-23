@@ -1,0 +1,21 @@
+{
+    "name": "everson/php-unit-manager",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PHPUnitManager\\": "src/PHPUnitManager/"        
+        }
+    },
+    "authors": [
+        {
+            "name": "marceloeverson"
+        }
+    ],
+    "minimum-stability": "dev",
+    
+    "require-dev": {
+        "phpunit/phpunit": "13.5.x-dev"
+    }
+}
