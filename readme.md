@@ -59,8 +59,9 @@ $testsPath    = __DIR__ . "/tests/items"; // Diretório onde ficam seus arquivos
 $manager = new Manager(composerFile, argv);
 
 // Registra o comando de sincronização
-$manager->registerStrategy('sync', function() use (composerFile, testsPath) {
-    sync = new Sync(composerFile, \(testsPath, null, true);\)sync->run();
+$manager->registerStrategy('sync', function() use ($composerFile, $testsPath) {
+    $sync = new Sync($composerFile, $testsPath, null, true)
+    $sync->run();
 });
 
 $manager->dispatch();
@@ -83,7 +84,7 @@ php test-manager.php <comando> [opções] [argumentos]
 | `help` | | Mostra todas as opções e instruções disponíveis. |
 | `sync` | | Sincroniza todos os arquivos de teste no `composer.json`. |
 | `show` | `[-g]` | Lista os testes registrados e seus grupos (exceto `all-tests`). Use `-g` para listar apenas os grupos. |
-| `run` | `[-n | -g | -a] <nome>` | Executa os testes registrados conforme a flag escolhida. |
+| `run` | `[-n \| -g \| -a] <nome>` | Executa os testes registrados conforme a flag escolhida. |
 
 ### Detalhes das opções do comando `run`
 
