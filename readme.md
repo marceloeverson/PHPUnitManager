@@ -53,7 +53,7 @@ include __DIR__ . "/vendor/autoload.php";
 $composerFile = __DIR__ . "/composer.json";
 $testsPath    = __DIR__ . "/tests/items"; // Diretório onde ficam seus arquivos de teste
 
-$manager = new Manager(composerFile, argv);
+$manager = new Manager($composerFile, $argv);
 
 // Registra o comando de sincronização
 $manager->registerStrategy('sync', function() use ($composerFile, $testsPath) {
