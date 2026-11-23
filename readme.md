@@ -39,8 +39,6 @@ O **PHPUnitManager** facilita a rotina de testes em projetos PHP ao automatizar 
 git clone https://github.com/marceloeverson/PHPUnitManager.git
 ```
 
-*(Caso publique no Packagist futuramente: `composer require --dev marceloeverson/phpunit-manager`)*
-
 ### 2. Crie o script gerenciador na raiz do seu projeto
 
 Crie um arquivo chamado `test-manager.php` na raiz do seu projeto (ao lado do `composer.json`) com o seguinte conteúdo:
