@@ -2,9 +2,9 @@
 
 > Um gerenciador de linha de comando (CLI) em PHP para organizar, sincronizar e executar suítes de testes do PHPUnit diretamente através dos scripts do `composer.json`.
 
-![PHP](https://shields.io)
-![Composer](https://shields.io)
-![PHPUnit](https://shields.io)
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+![Composer](https://img.shields.io/badge/composer-%23885630.svg?style=for-the-badge&logo=composer&logoColor=white)
+
 
 ---
 
@@ -36,7 +36,7 @@ O **PHPUnitManager** facilita a rotina de testes em projetos PHP ao automatizar 
 ### 1. Instale via Composer (ou clone o repositório)
 
 ```bash
-git clone https://github.com
+git clone https://github.com/marceloeverson/PHPUnitManager.git
 ```
 
 *(Caso publique no Packagist futuramente: `composer require --dev marceloeverson/phpunit-manager`)*
